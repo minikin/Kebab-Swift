@@ -1,0 +1,36 @@
+PODS:
+  - GSMessages (1.2.0)
+  - Kingfisher (2.0.3)
+  - Mapbox-iOS-SDK (3.1.2)
+  - PSOperations (2.1.0)
+  - Realm (0.98.2):
+    - Realm/Headers (= 0.98.2)
+  - Realm/Headers (0.98.2)
+  - RealmSwift (0.98.2):
+    - Realm (= 0.98.2)
+
+DEPENDENCIES:
+  - GSMessages
+  - Kingfisher (~> 2.0)
+  - Mapbox-iOS-SDK
+  - PSOperations (from `https://github.com/minikin/PSOperations`)
+  - RealmSwift
+
+EXTERNAL SOURCES:
+  PSOperations:
+    :git: https://github.com/minikin/PSOperations
+
+CHECKOUT OPTIONS:
+  PSOperations:
+    :commit: 7329d2d335be2a2f834df2865dc9192f004e008a
+    :git: https://github.com/minikin/PSOperations
+
+SPEC CHECKSUMS:
+  GSMessages: 92a2aadb81bd7505e7375d7f70a58a2f49eb6e25
+  Kingfisher: 44c1f1912f19371a67d701e67c96d6bb45ca1c8d
+  Mapbox-iOS-SDK: 0a910c2cce1aa8cff5b9ec2a990e7a32332a776a
+  PSOperations: ced5d50e2ce4ec28dcdb2ff121c04f56b479fa7b
+  Realm: 88a147fe04b8f07191a676b15c779b2b448991de
+  RealmSwift: 9907c7415b3e19ef2ab9f89878fc890f03f93aea
+
+COCOAPODS: 0.39.0

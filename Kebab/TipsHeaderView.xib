@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SanFranciscoDisplay-Light.otf">
+            <string>SanFranciscoDisplay-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GalleryItemCollectionViewCell" customModule="Kebab_O_Clock" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="tipsHeaderView" id="r7T-8Q-QAK" customClass="TipsHeaderView" customModule="Kebab_O_Clock" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHAT PEOPLE SAY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cl7-6H-1q3">
+                    <rect key="frame" x="230" y="19" width="141" height="22"/>
+                    <fontDescription key="fontDescription" name="SanFranciscoDisplay-Light" family="San Francisco Display" pointSize="18"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d55-5Y-syi">
+                    <rect key="frame" x="548" y="0.0" width="44" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="iwY-Hn-Hp8"/>
+                    </constraints>
+                    <state key="normal" image="Close"/>
+                    <connections>
+                        <action selector="hideTipsTVCell:" destination="r7T-8Q-QAK" eventType="touchUpInside" id="r88-LW-9YU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="d55-5Y-syi" firstAttribute="trailing" secondItem="r7T-8Q-QAK" secondAttribute="trailingMargin" id="1Fh-8P-czk"/>
+                <constraint firstItem="cl7-6H-1q3" firstAttribute="centerX" secondItem="r7T-8Q-QAK" secondAttribute="centerX" id="2UP-pG-wdT"/>
+                <constraint firstItem="cl7-6H-1q3" firstAttribute="centerY" secondItem="r7T-8Q-QAK" secondAttribute="centerY" id="W2x-o6-fhv"/>
+                <constraint firstItem="d55-5Y-syi" firstAttribute="centerY" secondItem="cl7-6H-1q3" secondAttribute="centerY" id="br3-WF-sgj"/>
+                <constraint firstItem="d55-5Y-syi" firstAttribute="top" secondItem="r7T-8Q-QAK" secondAttribute="top" id="gS3-vI-rdN"/>
+            </constraints>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="Close" width="20" height="20"/>
+    </resources>
+</document>

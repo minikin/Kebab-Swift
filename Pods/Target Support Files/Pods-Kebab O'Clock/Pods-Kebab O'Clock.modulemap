@@ -1,0 +1,6 @@
+framework module Pods_Kebab_O_Clock {
+  umbrella header "Pods-Kebab O'Clock-umbrella.h"
+
+  export *
+  module * { export * }
+}

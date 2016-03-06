@@ -1,0 +1,1037 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2650BF8DE606C4C4CA2F696A /* Pods_KebabUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B5F2AA767B4A6470BA4232 /* Pods_KebabUITests.framework */; };
+		5FF2CB7CA9A5989314DD029E /* Pods_KebabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93AD157AE3EA9F5F8D01D17 /* Pods_KebabTests.framework */; };
+		CE00F2C41BAC375C005D8AB0 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE00F2C31BAC375C005D8AB0 /* Settings.bundle */; };
+		CE1BC4571C1F104000312556 /* TipsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BC4561C1F104000312556 /* TipsTableViewCell.swift */; };
+		CE1BC4591C1F105A00312556 /* TipsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BC4581C1F105A00312556 /* TipsCollectionViewCell.swift */; };
+		CE2BAB561C203A3F00EF79CF /* TipsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2BAB551C203A3F00EF79CF /* TipsHeaderView.swift */; };
+		CE2C3AC71BDA837F00CC7922 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C3AC61BDA837F00CC7922 /* Extensions.swift */; };
+		CE38EB011BBD8ACC009F0C88 /* PlacePhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38EB001BBD8ACC009F0C88 /* PlacePhotosModel.swift */; };
+		CE38EB031BBD8AFE009F0C88 /* PlaceTipsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38EB021BBD8AFE009F0C88 /* PlaceTipsModel.swift */; };
+		CE457DA61C7F007400136E31 /* KebabLocationOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE457DA51C7F007400136E31 /* KebabLocationOperation.swift */; };
+		CE5C826D1BB410CA007ED45A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C826C1BB410CA007ED45A /* RootViewController.swift */; };
+		CE5EBA5F1BD907AD00A44295 /* KebabTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EBA5E1BD907AD00A44295 /* KebabTheme.swift */; };
+		CE5EBA611BD9117200A44295 /* Basetica-Med.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE5EBA601BD9117200A44295 /* Basetica-Med.otf */; };
+		CE6E995C1BD7E67200C60DD4 /* StaticSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E995B1BD7E67200C60DD4 /* StaticSettingsTableViewController.swift */; };
+		CE7827D81BD7E12800A7F8E8 /* SanFranciscoDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE7827CF1BD7E0EB00A7F8E8 /* SanFranciscoDisplay-Light.otf */; };
+		CE7DD9EA1BADBA4900D2B55A /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7DD9E91BADBA4900D2B55A /* PlaceModel.swift */; };
+		CE7DDA751BADC18E00D2B55A /* NetworkObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7DDA741BADC18E00D2B55A /* NetworkObserver.swift */; };
+		CE80E5B91BB002EB00A97976 /* AlertOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80E5B81BB002EB00A97976 /* AlertOperation.swift */; };
+		CE80E5BD1BB007E300A97976 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80E5BC1BB007E300A97976 /* Constants.swift */; };
+		CE85FCA51C7DDDFA007CD3C9 /* DownloadPlacesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85FCA41C7DDDFA007CD3C9 /* DownloadPlacesOperation.swift */; };
+		CE85FCA71C7DE101007CD3C9 /* GetPlacesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85FCA61C7DE101007CD3C9 /* GetPlacesOperation.swift */; };
+		CE8D5AA71C7B2791002FC323 /* PageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D5AA61C7B2791002FC323 /* PageFlowLayout.swift */; };
+		CE92C49F1C145A5D00339E55 /* RadiusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92C49E1C145A5D00339E55 /* RadiusTableViewController.swift */; };
+		CE92C4A11C145A7B00339E55 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92C4A01C145A7B00339E55 /* CategoriesTableViewController.swift */; };
+		CE937E141C41360900270E67 /* TipsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE937E131C41360900270E67 /* TipsHeaderView.xib */; };
+		CE96BE211C4F9BE700A6CD3A /* FoursquareEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96BE201C4F9BE700A6CD3A /* FoursquareEndpoints.swift */; };
+		CEA75D791BB8860C00656736 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA75D781BB8860C00656736 /* JSON.swift */; };
+		CEA8E3AA1BBD678B004275FD /* ParsedPhotoOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8E3A91BBD678B004275FD /* ParsedPhotoOperation.swift */; };
+		CEA8E3AC1BBD705E004275FD /* DownloadPhotosOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8E3AB1BBD705E004275FD /* DownloadPhotosOperation.swift */; };
+		CEA8E3AE1BBD746B004275FD /* GetPhotosOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8E3AD1BBD746B004275FD /* GetPhotosOperation.swift */; };
+		CEA8E3B21BBD82ED004275FD /* DownloadTipsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8E3B11BBD82ED004275FD /* DownloadTipsOperation.swift */; };
+		CEA8E3B41BBD82F9004275FD /* ParseTipsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8E3B31BBD82F9004275FD /* ParseTipsOperation.swift */; };
+		CEA8E3B61BBD8301004275FD /* GetTipsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8E3B51BBD8301004275FD /* GetTipsOperation.swift */; };
+		CEB8DDDC1C16FE80002FB6A5 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8DDDB1C16FE80002FB6A5 /* DetailsTableViewController.swift */; };
+		CEB8DE081C170E5E002FB6A5 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8DE071C170E5E002FB6A5 /* PhotosCollectionViewCell.swift */; };
+		CEB8DE0A1C170FE4002FB6A5 /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8DE091C170FE4002FB6A5 /* PhotosTableViewCell.swift */; };
+		CECB70CF1C5134A40058C298 /* KebabGeoCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB70CE1C5134A40058C298 /* KebabGeoCoder.swift */; };
+		CECF92741BAC364800B00407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF92731BAC364800B00407 /* AppDelegate.swift */; };
+		CECF92791BAC364800B00407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECF92771BAC364800B00407 /* Main.storyboard */; };
+		CECF927B1BAC364800B00407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECF927A1BAC364800B00407 /* Assets.xcassets */; };
+		CECF927E1BAC364800B00407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECF927C1BAC364800B00407 /* LaunchScreen.storyboard */; };
+		CECF92891BAC364800B00407 /* KebabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF92881BAC364800B00407 /* KebabTests.swift */; };
+		CECF92941BAC364800B00407 /* KebabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF92931BAC364800B00407 /* KebabUITests.swift */; };
+		CEDE7CDC1C7322A0003240A6 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE7CDB1C7322A0003240A6 /* PaddingLabel.swift */; };
+		CEE104741C8CAF9200BB0EB1 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE104721C8CAF9200BB0EB1 /* Crashlytics.framework */; };
+		CEE104751C8CAF9200BB0EB1 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE104731C8CAF9200BB0EB1 /* Fabric.framework */; };
+		CEE23BF91C2054B10083FFE2 /* TipsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE23BF81C2054B10083FFE2 /* TipsLayout.swift */; };
+		CEF451DB1C1B223F00BC4CA5 /* StaticDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF451DA1C1B223F00BC4CA5 /* StaticDataTableViewController.m */; };
+		CEF8AAA01BB3FE55002B097A /* PlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8AA9F1BB3FE55002B097A /* PlaceCollectionViewCell.swift */; };
+		CEF8AAA21BB3FE9A002B097A /* PlaceFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8AAA11BB3FE9A002B097A /* PlaceFlowLayout.swift */; };
+		CEF947CF1BB03C7000338647 /* ParsePlaceOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF947CE1BB03C7000338647 /* ParsePlaceOperation.swift */; };
+		CEFA8AC31C1885550017EBD8 /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA8AC21C1885550017EBD8 /* FloatRatingView.swift */; };
+		E6E441FC41EBE0AFCD903651 /* Pods_Kebab_O_Clock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB02D526B81C5177E0E6DE9 /* Pods_Kebab_O_Clock.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECF92851BAC364800B00407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECF92681BAC364800B00407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECF926F1BAC364800B00407;
+			remoteInfo = Kebab;
+		};
+		CECF92901BAC364800B00407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECF92681BAC364800B00407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECF926F1BAC364800B00407;
+			remoteInfo = Kebab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEA13D2A1BE37BE0004DF54D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		19B5F2AA767B4A6470BA4232 /* Pods_KebabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KebabUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3B7883058B9D10A445903B /* Pods-KebabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KebabUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KebabUITests/Pods-KebabUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F4F6138581FD21FC393C1C9 /* Pods-KebabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KebabTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KebabTests/Pods-KebabTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75FBDB834E9A43F2B178493F /* Pods-KebabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KebabUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KebabUITests/Pods-KebabUITests.release.xcconfig"; sourceTree = "<group>"; };
+		919256747FAD62423A4CC6AB /* Pods-Kebab O'Clock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kebab O'Clock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kebab O'Clock/Pods-Kebab O'Clock.debug.xcconfig"; sourceTree = "<group>"; };
+		BEB02D526B81C5177E0E6DE9 /* Pods_Kebab_O_Clock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kebab_O_Clock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93AD157AE3EA9F5F8D01D17 /* Pods_KebabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KebabTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE00F2C31BAC375C005D8AB0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CE1BC4561C1F104000312556 /* TipsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsTableViewCell.swift; sourceTree = "<group>"; };
+		CE1BC4581C1F105A00312556 /* TipsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE2BAB551C203A3F00EF79CF /* TipsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsHeaderView.swift; sourceTree = "<group>"; };
+		CE2C3AC61BDA837F00CC7922 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CE38EB001BBD8ACC009F0C88 /* PlacePhotosModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacePhotosModel.swift; sourceTree = "<group>"; };
+		CE38EB021BBD8AFE009F0C88 /* PlaceTipsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTipsModel.swift; sourceTree = "<group>"; };
+		CE457DA51C7F007400136E31 /* KebabLocationOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KebabLocationOperation.swift; sourceTree = "<group>"; };
+		CE5C826C1BB410CA007ED45A /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		CE5EBA5E1BD907AD00A44295 /* KebabTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KebabTheme.swift; sourceTree = "<group>"; };
+		CE5EBA601BD9117200A44295 /* Basetica-Med.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Basetica-Med.otf"; sourceTree = "<group>"; };
+		CE6E995B1BD7E67200C60DD4 /* StaticSettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticSettingsTableViewController.swift; sourceTree = "<group>"; };
+		CE7827CF1BD7E0EB00A7F8E8 /* SanFranciscoDisplay-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Light.otf"; sourceTree = "<group>"; };
+		CE7DD9E91BADBA4900D2B55A /* PlaceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		CE7DDA741BADC18E00D2B55A /* NetworkObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkObserver.swift; sourceTree = "<group>"; };
+		CE80E5B81BB002EB00A97976 /* AlertOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertOperation.swift; sourceTree = "<group>"; };
+		CE80E5BC1BB007E300A97976 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE85FCA41C7DDDFA007CD3C9 /* DownloadPlacesOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadPlacesOperation.swift; sourceTree = "<group>"; };
+		CE85FCA61C7DE101007CD3C9 /* GetPlacesOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPlacesOperation.swift; sourceTree = "<group>"; };
+		CE8D5AA61C7B2791002FC323 /* PageFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageFlowLayout.swift; sourceTree = "<group>"; };
+		CE92C49E1C145A5D00339E55 /* RadiusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadiusTableViewController.swift; sourceTree = "<group>"; };
+		CE92C4A01C145A7B00339E55 /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		CE937E131C41360900270E67 /* TipsHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipsHeaderView.xib; sourceTree = "<group>"; };
+		CE96BE201C4F9BE700A6CD3A /* FoursquareEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareEndpoints.swift; sourceTree = "<group>"; };
+		CEA13D231BE3779C004DF54D /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		CEA75D781BB8860C00656736 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		CEA8E3A91BBD678B004275FD /* ParsedPhotoOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsedPhotoOperation.swift; sourceTree = "<group>"; };
+		CEA8E3AB1BBD705E004275FD /* DownloadPhotosOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadPhotosOperation.swift; sourceTree = "<group>"; };
+		CEA8E3AD1BBD746B004275FD /* GetPhotosOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPhotosOperation.swift; sourceTree = "<group>"; };
+		CEA8E3B11BBD82ED004275FD /* DownloadTipsOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadTipsOperation.swift; sourceTree = "<group>"; };
+		CEA8E3B31BBD82F9004275FD /* ParseTipsOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseTipsOperation.swift; sourceTree = "<group>"; };
+		CEA8E3B51BBD8301004275FD /* GetTipsOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTipsOperation.swift; sourceTree = "<group>"; };
+		CEAD7C2C7597CF86855233EA /* Pods-KebabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KebabTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KebabTests/Pods-KebabTests.release.xcconfig"; sourceTree = "<group>"; };
+		CEB8DDDB1C16FE80002FB6A5 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+		CEB8DE071C170E5E002FB6A5 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEB8DE091C170FE4002FB6A5 /* PhotosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosTableViewCell.swift; sourceTree = "<group>"; };
+		CECB70CE1C5134A40058C298 /* KebabGeoCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KebabGeoCoder.swift; sourceTree = "<group>"; };
+		CECF92701BAC364800B00407 /* Kebab O'Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kebab O'Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECF92731BAC364800B00407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CECF92781BAC364800B00407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECF927A1BAC364800B00407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECF927D1BAC364800B00407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CECF927F1BAC364800B00407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECF92841BAC364800B00407 /* KebabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KebabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECF92881BAC364800B00407 /* KebabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KebabTests.swift; sourceTree = "<group>"; };
+		CECF928A1BAC364800B00407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECF928F1BAC364800B00407 /* KebabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KebabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECF92931BAC364800B00407 /* KebabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KebabUITests.swift; sourceTree = "<group>"; };
+		CECF92951BAC364800B00407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDE7CDB1C7322A0003240A6 /* PaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		CEE104721C8CAF9200BB0EB1 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		CEE104731C8CAF9200BB0EB1 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		CEE23BF81C2054B10083FFE2 /* TipsLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsLayout.swift; sourceTree = "<group>"; };
+		CEF451D91C1B223F00BC4CA5 /* StaticDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticDataTableViewController.h; sourceTree = "<group>"; };
+		CEF451DA1C1B223F00BC4CA5 /* StaticDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticDataTableViewController.m; sourceTree = "<group>"; };
+		CEF8AA9F1BB3FE55002B097A /* PlaceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEF8AAA11BB3FE9A002B097A /* PlaceFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceFlowLayout.swift; sourceTree = "<group>"; };
+		CEF947CE1BB03C7000338647 /* ParsePlaceOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsePlaceOperation.swift; sourceTree = "<group>"; };
+		CEFA8AC21C1885550017EBD8 /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+		D4C49974516551F78D2C23AF /* Pods-Kebab O'Clock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kebab O'Clock.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kebab O'Clock/Pods-Kebab O'Clock.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECF926D1BAC364800B00407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE104741C8CAF9200BB0EB1 /* Crashlytics.framework in Frameworks */,
+				E6E441FC41EBE0AFCD903651 /* Pods_Kebab_O_Clock.framework in Frameworks */,
+				CEE104751C8CAF9200BB0EB1 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECF92811BAC364800B00407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF2CB7CA9A5989314DD029E /* Pods_KebabTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECF928C1BAC364800B00407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2650BF8DE606C4C4CA2F696A /* Pods_KebabUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1966B4EA793AF328E459812E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE104721C8CAF9200BB0EB1 /* Crashlytics.framework */,
+				CEE104731C8CAF9200BB0EB1 /* Fabric.framework */,
+				BEB02D526B81C5177E0E6DE9 /* Pods_Kebab_O_Clock.framework */,
+				C93AD157AE3EA9F5F8D01D17 /* Pods_KebabTests.framework */,
+				19B5F2AA767B4A6470BA4232 /* Pods_KebabUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		972969B9EC3A3C839681394D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				919256747FAD62423A4CC6AB /* Pods-Kebab O'Clock.debug.xcconfig */,
+				D4C49974516551F78D2C23AF /* Pods-Kebab O'Clock.release.xcconfig */,
+				2F4F6138581FD21FC393C1C9 /* Pods-KebabTests.debug.xcconfig */,
+				CEAD7C2C7597CF86855233EA /* Pods-KebabTests.release.xcconfig */,
+				2D3B7883058B9D10A445903B /* Pods-KebabUITests.debug.xcconfig */,
+				75FBDB834E9A43F2B178493F /* Pods-KebabUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE5C826E1BB41DA8007ED45A /* KebabOperations */ = {
+			isa = PBXGroup;
+			children = (
+				CE80E5B81BB002EB00A97976 /* AlertOperation.swift */,
+				CEA8E3AB1BBD705E004275FD /* DownloadPhotosOperation.swift */,
+				CE85FCA41C7DDDFA007CD3C9 /* DownloadPlacesOperation.swift */,
+				CEA8E3B11BBD82ED004275FD /* DownloadTipsOperation.swift */,
+				CEA8E3AD1BBD746B004275FD /* GetPhotosOperation.swift */,
+				CE85FCA61C7DE101007CD3C9 /* GetPlacesOperation.swift */,
+				CEA8E3B51BBD8301004275FD /* GetTipsOperation.swift */,
+				CECB70CE1C5134A40058C298 /* KebabGeoCoder.swift */,
+				CE457DA51C7F007400136E31 /* KebabLocationOperation.swift */,
+				CE7DDA741BADC18E00D2B55A /* NetworkObserver.swift */,
+				CEA8E3A91BBD678B004275FD /* ParsedPhotoOperation.swift */,
+				CEF947CE1BB03C7000338647 /* ParsePlaceOperation.swift */,
+				CEA8E3B31BBD82F9004275FD /* ParseTipsOperation.swift */,
+			);
+			name = KebabOperations;
+			sourceTree = "<group>";
+		};
+		CE7827CA1BD7E0B500A7F8E8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EBA601BD9117200A44295 /* Basetica-Med.otf */,
+				CE7827CF1BD7E0EB00A7F8E8 /* SanFranciscoDisplay-Light.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		CE7DDA711BADC12E00D2B55A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA8AC21C1885550017EBD8 /* FloatRatingView.swift */,
+				CEB8DE071C170E5E002FB6A5 /* PhotosCollectionViewCell.swift */,
+				CEB8DE091C170FE4002FB6A5 /* PhotosTableViewCell.swift */,
+				CEF8AA9F1BB3FE55002B097A /* PlaceCollectionViewCell.swift */,
+				CE1BC4581C1F105A00312556 /* TipsCollectionViewCell.swift */,
+				CE2BAB551C203A3F00EF79CF /* TipsHeaderView.swift */,
+				CE1BC4561C1F104000312556 /* TipsTableViewCell.swift */,
+				CEDE7CDB1C7322A0003240A6 /* PaddingLabel.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CE7DDA731BADC17A00D2B55A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CE80E5BC1BB007E300A97976 /* Constants.swift */,
+				CE2C3AC61BDA837F00CC7922 /* Extensions.swift */,
+				CEA75D781BB8860C00656736 /* JSON.swift */,
+				CE5EBA5E1BD907AD00A44295 /* KebabTheme.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		CE9CB72F1BAC3C4500ECF5F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE00F2C31BAC375C005D8AB0 /* Settings.bundle */,
+				CECF927F1BAC364800B00407 /* Info.plist */,
+				CECF92731BAC364800B00407 /* AppDelegate.swift */,
+				CE7827CA1BD7E0B500A7F8E8 /* Fonts */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE9CB7301BAC4F9A00ECF5F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE96BE201C4F9BE700A6CD3A /* FoursquareEndpoints.swift */,
+				CE7DD9E91BADBA4900D2B55A /* PlaceModel.swift */,
+				CE38EB001BBD8ACC009F0C88 /* PlacePhotosModel.swift */,
+				CE38EB021BBD8AFE009F0C88 /* PlaceTipsModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CE9CB7311BAC4FAB00ECF5F8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE92C4A01C145A7B00339E55 /* CategoriesTableViewController.swift */,
+				CEB8DDDB1C16FE80002FB6A5 /* DetailsTableViewController.swift */,
+				CE92C49E1C145A5D00339E55 /* RadiusTableViewController.swift */,
+				CE5C826C1BB410CA007ED45A /* RootViewController.swift */,
+				CE6E995B1BD7E67200C60DD4 /* StaticSettingsTableViewController.swift */,
+				CEF451DC1C1B231100BC4CA5 /* StaticTableViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CE9CB7321BAC4FB200ECF5F8 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				CEF8AAA11BB3FE9A002B097A /* PlaceFlowLayout.swift */,
+				CEE23BF81C2054B10083FFE2 /* TipsLayout.swift */,
+				CE8D5AA61C7B2791002FC323 /* PageFlowLayout.swift */,
+			);
+			name = Layouts;
+			sourceTree = "<group>";
+		};
+		CE9CB7331BAC4FBC00ECF5F8 /* Stroryboards */ = {
+			isa = PBXGroup;
+			children = (
+				CECF927C1BAC364800B00407 /* LaunchScreen.storyboard */,
+				CECF92771BAC364800B00407 /* Main.storyboard */,
+				CE937E131C41360900270E67 /* TipsHeaderView.xib */,
+			);
+			name = Stroryboards;
+			sourceTree = "<group>";
+		};
+		CECF92671BAC364800B00407 = {
+			isa = PBXGroup;
+			children = (
+				CECF92721BAC364800B00407 /* Kebab */,
+				CECF92871BAC364800B00407 /* KebabTests */,
+				CECF92921BAC364800B00407 /* KebabUITests */,
+				CECF92711BAC364800B00407 /* Products */,
+				1966B4EA793AF328E459812E /* Frameworks */,
+				972969B9EC3A3C839681394D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CECF92711BAC364800B00407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECF92701BAC364800B00407 /* Kebab O'Clock.app */,
+				CECF92841BAC364800B00407 /* KebabTests.xctest */,
+				CECF928F1BAC364800B00407 /* KebabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECF92721BAC364800B00407 /* Kebab */ = {
+			isa = PBXGroup;
+			children = (
+				CECF927A1BAC364800B00407 /* Assets.xcassets */,
+				CEA13D231BE3779C004DF54D /* Bridge.h */,
+				CE9CB7311BAC4FAB00ECF5F8 /* Controllers */,
+				CE5C826E1BB41DA8007ED45A /* KebabOperations */,
+				CE9CB7321BAC4FB200ECF5F8 /* Layouts */,
+				CE9CB7301BAC4F9A00ECF5F8 /* Models */,
+				CE9CB7331BAC4FBC00ECF5F8 /* Stroryboards */,
+				CE9CB72F1BAC3C4500ECF5F8 /* Supporting Files */,
+				CE7DDA731BADC17A00D2B55A /* Utils */,
+				CE7DDA711BADC12E00D2B55A /* Views */,
+			);
+			path = Kebab;
+			sourceTree = "<group>";
+		};
+		CECF92871BAC364800B00407 /* KebabTests */ = {
+			isa = PBXGroup;
+			children = (
+				CECF928A1BAC364800B00407 /* Info.plist */,
+				CECF92881BAC364800B00407 /* KebabTests.swift */,
+			);
+			path = KebabTests;
+			sourceTree = "<group>";
+		};
+		CECF92921BAC364800B00407 /* KebabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CECF92931BAC364800B00407 /* KebabUITests.swift */,
+				CECF92951BAC364800B00407 /* Info.plist */,
+			);
+			path = KebabUITests;
+			sourceTree = "<group>";
+		};
+		CEF451DC1C1B231100BC4CA5 /* StaticTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEF451D91C1B223F00BC4CA5 /* StaticDataTableViewController.h */,
+				CEF451DA1C1B223F00BC4CA5 /* StaticDataTableViewController.m */,
+			);
+			name = StaticTableViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECF926F1BAC364800B00407 /* Kebab O'Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECF92981BAC364800B00407 /* Build configuration list for PBXNativeTarget "Kebab O'Clock" */;
+			buildPhases = (
+				C74430E964372DD1A2995D9F /* Check Pods Manifest.lock */,
+				CECF926C1BAC364800B00407 /* Sources */,
+				CECF926D1BAC364800B00407 /* Frameworks */,
+				CE00F2C51BAC37EC005D8AB0 /* ShellScript */,
+				CECF926E1BAC364800B00407 /* Resources */,
+				CEA13D2A1BE37BE0004DF54D /* Embed Frameworks */,
+				E46901C6B0C899F016B3561C /* Embed Pods Frameworks */,
+				FB2E6DE5CDDDEDF7FB9E4A07 /* Copy Pods Resources */,
+				CEEE8C801C736EFA00C17708 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kebab O'Clock";
+			productName = Kebab;
+			productReference = CECF92701BAC364800B00407 /* Kebab O'Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECF92831BAC364800B00407 /* KebabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECF929B1BAC364800B00407 /* Build configuration list for PBXNativeTarget "KebabTests" */;
+			buildPhases = (
+				FDA229AE19FFFAEFE07EE90A /* Check Pods Manifest.lock */,
+				CECF92801BAC364800B00407 /* Sources */,
+				CECF92811BAC364800B00407 /* Frameworks */,
+				CECF92821BAC364800B00407 /* Resources */,
+				E22493881D53AFDE3898E86B /* Embed Pods Frameworks */,
+				22FDDC91828BCC1DE8052279 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECF92861BAC364800B00407 /* PBXTargetDependency */,
+			);
+			name = KebabTests;
+			productName = KebabTests;
+			productReference = CECF92841BAC364800B00407 /* KebabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CECF928E1BAC364800B00407 /* KebabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECF929E1BAC364800B00407 /* Build configuration list for PBXNativeTarget "KebabUITests" */;
+			buildPhases = (
+				F9B671637795B7BB4AE440A9 /* Check Pods Manifest.lock */,
+				CECF928B1BAC364800B00407 /* Sources */,
+				CECF928C1BAC364800B00407 /* Frameworks */,
+				CECF928D1BAC364800B00407 /* Resources */,
+				F7EFAB7507046F139ED65E68 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECF92911BAC364800B00407 /* PBXTargetDependency */,
+			);
+			name = KebabUITests;
+			productName = KebabUITests;
+			productReference = CECF928F1BAC364800B00407 /* KebabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECF92681BAC364800B00407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Minikin;
+				TargetAttributes = {
+					CECF926F1BAC364800B00407 = {
+						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					CECF92831BAC364800B00407 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CECF926F1BAC364800B00407;
+					};
+					CECF928E1BAC364800B00407 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CECF926F1BAC364800B00407;
+					};
+				};
+			};
+			buildConfigurationList = CECF926B1BAC364800B00407 /* Build configuration list for PBXProject "Kebab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECF92671BAC364800B00407;
+			productRefGroup = CECF92711BAC364800B00407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECF926F1BAC364800B00407 /* Kebab O'Clock */,
+				CECF92831BAC364800B00407 /* KebabTests */,
+				CECF928E1BAC364800B00407 /* KebabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECF926E1BAC364800B00407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE00F2C41BAC375C005D8AB0 /* Settings.bundle in Resources */,
+				CECF927E1BAC364800B00407 /* LaunchScreen.storyboard in Resources */,
+				CECF927B1BAC364800B00407 /* Assets.xcassets in Resources */,
+				CECF92791BAC364800B00407 /* Main.storyboard in Resources */,
+				CE937E141C41360900270E67 /* TipsHeaderView.xib in Resources */,
+				CE5EBA611BD9117200A44295 /* Basetica-Med.otf in Resources */,
+				CE7827D81BD7E12800A7F8E8 /* SanFranciscoDisplay-Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECF92821BAC364800B00407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECF928D1BAC364800B00407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22FDDC91828BCC1DE8052279 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KebabTests/Pods-KebabTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C74430E964372DD1A2995D9F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE00F2C51BAC37EC005D8AB0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+		CEEE8C801C736EFA00C17708 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework/strip-frameworks.sh\"";
+		};
+		E22493881D53AFDE3898E86B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KebabTests/Pods-KebabTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E46901C6B0C899F016B3561C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kebab O'Clock/Pods-Kebab O'Clock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7EFAB7507046F139ED65E68 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KebabUITests/Pods-KebabUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B671637795B7BB4AE440A9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2E6DE5CDDDEDF7FB9E4A07 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kebab O'Clock/Pods-Kebab O'Clock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDA229AE19FFFAEFE07EE90A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECF926C1BAC364800B00407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5C826D1BB410CA007ED45A /* RootViewController.swift in Sources */,
+				CE1BC4591C1F105A00312556 /* TipsCollectionViewCell.swift in Sources */,
+				CE92C4A11C145A7B00339E55 /* CategoriesTableViewController.swift in Sources */,
+				CE80E5BD1BB007E300A97976 /* Constants.swift in Sources */,
+				CEF8AAA21BB3FE9A002B097A /* PlaceFlowLayout.swift in Sources */,
+				CEA8E3AE1BBD746B004275FD /* GetPhotosOperation.swift in Sources */,
+				CE38EB011BBD8ACC009F0C88 /* PlacePhotosModel.swift in Sources */,
+				CEA8E3AC1BBD705E004275FD /* DownloadPhotosOperation.swift in Sources */,
+				CE7DD9EA1BADBA4900D2B55A /* PlaceModel.swift in Sources */,
+				CECF92741BAC364800B00407 /* AppDelegate.swift in Sources */,
+				CEF947CF1BB03C7000338647 /* ParsePlaceOperation.swift in Sources */,
+				CE85FCA51C7DDDFA007CD3C9 /* DownloadPlacesOperation.swift in Sources */,
+				CEE23BF91C2054B10083FFE2 /* TipsLayout.swift in Sources */,
+				CE92C49F1C145A5D00339E55 /* RadiusTableViewController.swift in Sources */,
+				CE8D5AA71C7B2791002FC323 /* PageFlowLayout.swift in Sources */,
+				CECB70CF1C5134A40058C298 /* KebabGeoCoder.swift in Sources */,
+				CE2C3AC71BDA837F00CC7922 /* Extensions.swift in Sources */,
+				CE96BE211C4F9BE700A6CD3A /* FoursquareEndpoints.swift in Sources */,
+				CEF451DB1C1B223F00BC4CA5 /* StaticDataTableViewController.m in Sources */,
+				CEFA8AC31C1885550017EBD8 /* FloatRatingView.swift in Sources */,
+				CEA8E3AA1BBD678B004275FD /* ParsedPhotoOperation.swift in Sources */,
+				CEA75D791BB8860C00656736 /* JSON.swift in Sources */,
+				CE7DDA751BADC18E00D2B55A /* NetworkObserver.swift in Sources */,
+				CE2BAB561C203A3F00EF79CF /* TipsHeaderView.swift in Sources */,
+				CEF8AAA01BB3FE55002B097A /* PlaceCollectionViewCell.swift in Sources */,
+				CE457DA61C7F007400136E31 /* KebabLocationOperation.swift in Sources */,
+				CEA8E3B21BBD82ED004275FD /* DownloadTipsOperation.swift in Sources */,
+				CE85FCA71C7DE101007CD3C9 /* GetPlacesOperation.swift in Sources */,
+				CEDE7CDC1C7322A0003240A6 /* PaddingLabel.swift in Sources */,
+				CE6E995C1BD7E67200C60DD4 /* StaticSettingsTableViewController.swift in Sources */,
+				CEB8DE0A1C170FE4002FB6A5 /* PhotosTableViewCell.swift in Sources */,
+				CEA8E3B41BBD82F9004275FD /* ParseTipsOperation.swift in Sources */,
+				CEB8DE081C170E5E002FB6A5 /* PhotosCollectionViewCell.swift in Sources */,
+				CE5EBA5F1BD907AD00A44295 /* KebabTheme.swift in Sources */,
+				CE1BC4571C1F104000312556 /* TipsTableViewCell.swift in Sources */,
+				CE80E5B91BB002EB00A97976 /* AlertOperation.swift in Sources */,
+				CEA8E3B61BBD8301004275FD /* GetTipsOperation.swift in Sources */,
+				CE38EB031BBD8AFE009F0C88 /* PlaceTipsModel.swift in Sources */,
+				CEB8DDDC1C16FE80002FB6A5 /* DetailsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECF92801BAC364800B00407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECF92891BAC364800B00407 /* KebabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECF928B1BAC364800B00407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECF92941BAC364800B00407 /* KebabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECF92861BAC364800B00407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECF926F1BAC364800B00407 /* Kebab O'Clock */;
+			targetProxy = CECF92851BAC364800B00407 /* PBXContainerItemProxy */;
+		};
+		CECF92911BAC364800B00407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECF926F1BAC364800B00407 /* Kebab O'Clock */;
+			targetProxy = CECF92901BAC364800B00407 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CECF92771BAC364800B00407 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECF92781BAC364800B00407 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECF927C1BAC364800B00407 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECF927D1BAC364800B00407 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECF92961BAC364800B00407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "-l<libsqlite3> -l<libc++> -l<libz> -ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CECF92971BAC364800B00407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "-l<libsqlite3> -l<libc++> -l<libz> -ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECF92991BAC364800B00407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919256747FAD62423A4CC6AB /* Pods-Kebab O'Clock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Kebab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+					"-lz",
+					"-lc++",
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.minikin.kebab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = Kebab/Bridge.h;
+			};
+			name = Debug;
+		};
+		CECF929A1BAC364800B00407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C49974516551F78D2C23AF /* Pods-Kebab O'Clock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Kebab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+					"-lz",
+					"-lc++",
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.minikin.kebab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = Kebab/Bridge.h;
+			};
+			name = Release;
+		};
+		CECF929C1BAC364800B00407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					Kebab/RealmSwift.framework,
+					Kebab/mapbox3pre2,
+				);
+				INFOPLIST_FILE = KebabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = me.minikin.KebabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kebab.app/Kebab";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
+			};
+			name = Debug;
+		};
+		CECF929D1BAC364800B00407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					Kebab/RealmSwift.framework,
+					Kebab/mapbox3pre2,
+				);
+				INFOPLIST_FILE = KebabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = me.minikin.KebabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kebab.app/Kebab";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
+			};
+			name = Release;
+		};
+		CECF929F1BAC364800B00407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KebabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.minikin.KebabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_TARGET_NAME = "Kebab O'Clock";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CECF92A01BAC364800B00407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KebabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.minikin.KebabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_TARGET_NAME = "Kebab O'Clock";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECF926B1BAC364800B00407 /* Build configuration list for PBXProject "Kebab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECF92961BAC364800B00407 /* Debug */,
+				CECF92971BAC364800B00407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECF92981BAC364800B00407 /* Build configuration list for PBXNativeTarget "Kebab O'Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECF92991BAC364800B00407 /* Debug */,
+				CECF929A1BAC364800B00407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECF929B1BAC364800B00407 /* Build configuration list for PBXNativeTarget "KebabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECF929C1BAC364800B00407 /* Debug */,
+				CECF929D1BAC364800B00407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECF929E1BAC364800B00407 /* Build configuration list for PBXNativeTarget "KebabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECF929F1BAC364800B00407 /* Debug */,
+				CECF92A01BAC364800B00407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECF92681BAC364800B00407 /* Project object */;
+}
