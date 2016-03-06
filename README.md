@@ -38,24 +38,28 @@ From the root of the project, install dependencies with:
 
 and then open Kebab.xcworkspace to launch the project in Xcode.
 
+## Obtain your Fabric key (or delete Fabric from project):
+
+Add a Run Script Build Phase and include the Fabric run command as the last part
+of your script: ./Fabric.framework/run FABRIC_API_KEY FABRIC_API_SECRET
+
+Read official getting started: 
+[https://docs.fabric.io/ios/fabric/getting-started.html](https://docs.fabric.io/ios/fabric/getting-started.html)
+
 ## Obtain your MapBox key
 	
-Read official instruction: 
+Read official getting started: 
 [https://www.mapbox.com/ios-sdk/](https://www.mapbox.com/ios-sdk/).
 
 Add your key to Info.plist
 
 ## Obtain your Foursquare client Id and client secret
 
-Read official instruction: 
+Read official getting started: 
 [https://developer.foursquare.com/start](https://developer.foursquare.com/start).
 
 Find Constants.swift and put you client Id and client secret to FoursquareData enum.
 
-### Optional:
-
-Add a Run Script Build Phase and include the Fabric run command as the last part of your script: 
-./Fabric.framework/run FABRIC_API_KEY FABRIC_API_SECRET
 
 ## TO-DO & BUGS:
 Check [the list of existing issues](https://github.com/minikin/Kebab/issues) or [add](https://github.com/minikin/Kebab/issues/new) your own *(In Progress).*

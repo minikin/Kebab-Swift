@@ -19,11 +19,9 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>7246</string>
+	<string>7250</string>
 	<key>Fabric</key>
 	<dict>
-		<key>APIKey</key>
-		<string>1d1073e481f03a63080060b0030c34fc51059f00</string>
 		<key>Kits</key>
 		<array>
 			<dict>
@@ -31,15 +29,6 @@
 				<dict/>
 				<key>KitName</key>
 				<string>Crashlytics</string>
-			</dict>
-			<dict>
-				<key>KitInfo</key>
-				<dict>
-					<key>accessToken</key>
-					<string>pk.eyJ1IjoibWluaWtpbiIsImEiOiJlMmFlZWEwZjA1ZDU4YjM4M2VmMTI1MDQzODA5MTQwMyJ9.oyosOgSIWkMfHqcy9DpsvA</string>
-				</dict>
-				<key>KitName</key>
-				<string>MGLAccountManager</string>
 			</dict>
 		</array>
 	</dict>
