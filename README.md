@@ -52,6 +52,11 @@ Read official instruction:
 
 Find Constants.swift and put you client Id and client secret to FoursquareData enum.
 
+### Optional:
+
+Add a Run Script Build Phase and include the Fabric run command as the last part of your script: 
+./Fabric.framework/run <FABRIC_API_KEY> <FABRIC_API_SECRET>
+
 ## TO-DO & BUGS:
 Check [the list of existing issues](https://github.com/minikin/Kebab/issues) or [add](https://github.com/minikin/Kebab/issues/new) your own *(In Progress).*
 
