@@ -14,6 +14,7 @@ Rate Kebab O'Clock or write a few good words in case you find it useful.
 [Kebab O’Clock](https://itunes.apple.com/us/app/kebab-oclock/id965015089) is a result of shared love for unhealthy high calorie delicious street food and 
 a desire to create an iOS App. It’s also a educational exercise.
 
+[![Build Status](https://travis-ci.org/minikin/Kebab.svg?branch=master)](https://travis-ci.org/minikin/Kebab)
 [![](https://img.shields.io/badge/Swift-2.1-blue.svg)]()
 [![](https://img.shields.io/badge/Version-1.0-blue.svg)]()
 [![](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]()
