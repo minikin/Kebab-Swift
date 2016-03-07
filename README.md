@@ -38,14 +38,6 @@ From the root of the project, install dependencies with:
 
 and then open Kebab.xcworkspace to launch the project in Xcode.
 
-## Obtain your Fabric key (or delete Fabric from project):
-
-Add a Run Script Build Phase and include the Fabric run command as the last part
-of your script: ./Fabric.framework/run FABRIC_API_KEY FABRIC_API_SECRET
-
-Read official getting started: 
-[https://docs.fabric.io/ios/fabric/getting-started.html](https://docs.fabric.io/ios/fabric/getting-started.html)
-
 ## Obtain your MapBox key
 	
 Read official getting started: 
