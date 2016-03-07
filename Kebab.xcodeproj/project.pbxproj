@@ -51,8 +51,6 @@
 		CECF92891BAC364800B00407 /* KebabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF92881BAC364800B00407 /* KebabTests.swift */; };
 		CECF92941BAC364800B00407 /* KebabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF92931BAC364800B00407 /* KebabUITests.swift */; };
 		CEDE7CDC1C7322A0003240A6 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE7CDB1C7322A0003240A6 /* PaddingLabel.swift */; };
-		CEE104741C8CAF9200BB0EB1 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE104721C8CAF9200BB0EB1 /* Crashlytics.framework */; };
-		CEE104751C8CAF9200BB0EB1 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE104731C8CAF9200BB0EB1 /* Fabric.framework */; };
 		CEE23BF91C2054B10083FFE2 /* TipsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE23BF81C2054B10083FFE2 /* TipsLayout.swift */; };
 		CEF451DB1C1B223F00BC4CA5 /* StaticDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF451DA1C1B223F00BC4CA5 /* StaticDataTableViewController.m */; };
 		CEF8AAA01BB3FE55002B097A /* PlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF8AA9F1BB3FE55002B097A /* PlaceCollectionViewCell.swift */; };
@@ -150,8 +148,6 @@
 		CECF92931BAC364800B00407 /* KebabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KebabUITests.swift; sourceTree = "<group>"; };
 		CECF92951BAC364800B00407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDE7CDB1C7322A0003240A6 /* PaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
-		CEE104721C8CAF9200BB0EB1 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		CEE104731C8CAF9200BB0EB1 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		CEE23BF81C2054B10083FFE2 /* TipsLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsLayout.swift; sourceTree = "<group>"; };
 		CEF451D91C1B223F00BC4CA5 /* StaticDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticDataTableViewController.h; sourceTree = "<group>"; };
 		CEF451DA1C1B223F00BC4CA5 /* StaticDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticDataTableViewController.m; sourceTree = "<group>"; };
@@ -167,9 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE104741C8CAF9200BB0EB1 /* Crashlytics.framework in Frameworks */,
 				E6E441FC41EBE0AFCD903651 /* Pods_Kebab_O_Clock.framework in Frameworks */,
-				CEE104751C8CAF9200BB0EB1 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,8 +189,6 @@
 		1966B4EA793AF328E459812E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEE104721C8CAF9200BB0EB1 /* Crashlytics.framework */,
-				CEE104731C8CAF9200BB0EB1 /* Fabric.framework */,
 				BEB02D526B81C5177E0E6DE9 /* Pods_Kebab_O_Clock.framework */,
 				C93AD157AE3EA9F5F8D01D17 /* Pods_KebabTests.framework */,
 				19B5F2AA767B4A6470BA4232 /* Pods_KebabUITests.framework */,
